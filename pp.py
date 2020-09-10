@@ -4,7 +4,7 @@
 """
 PLUS PREMIERES
 
-Find the latest releases on PlusPremieres.
+Find the latest singles on PlusPremieres.
 Usage:
 A batch file is already available. Add the path of the batch folder to the PATH
     pp <number of songs>
