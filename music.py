@@ -6,7 +6,18 @@ import argparse
 
 
 
-parser = argparse.ArgumentParser(description="Randomly copy a number of songs from your music library into a folder on the desktop.")
+"""
+usage: music.py [-h] [-n N]
+
+A command line tool used to easily copy a number of random songs from your music library into a folder on the desktop.
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -n N        number of songs to copy, 30 by default
+"""
+
+
+parser = argparse.ArgumentParser(description="A command line tool used to easily copy a number of random songs from your music library into a folder on the desktop.")
 parser.add_argument('-n', type=int, help='number of songs to copy, 30 by default', default=30)
 args = vars(parser.parse_args())
 
